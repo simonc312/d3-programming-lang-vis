@@ -363,7 +363,7 @@ function nameKeyFunction(d){
 
 }
 
-d3.json("/assets/data.json", function(error, json) {
+d3.json("{{site.baseurl}}/assets/data.json", function(error, json) {
 if (error) return console.warn(error);
   data = json;
   generateButtons();
