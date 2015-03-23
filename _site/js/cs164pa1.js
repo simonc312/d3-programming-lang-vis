@@ -6,6 +6,7 @@ var w = 1000;
 var h = 500;
 var padding = 50;
 var yPadding = 50;
+var data_path = "/d3-programming-lang-vis/assets/data.json";
 
 function generateButtons(){
   var uniqueParadigmList = {};
@@ -362,8 +363,8 @@ function nameKeyFunction(d){
 
 
 }
-
-d3.json("/assets/data.json", function(error, json) {
+//NEED TO UPDATE WITH BASEURL INDEPENDENTLY 
+d3.json(data_path, function(error, json) {
 if (error) return console.warn(error);
   data = json;
   generateButtons();
