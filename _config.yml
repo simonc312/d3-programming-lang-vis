@@ -1,6 +1,6 @@
 safe:        true
 port:        4000
-baseurl:     /
+baseurl:     /d3-programming-lang-vis
 permalink:   pretty
 #Setup
 title:       Popularity of Programming Languages
