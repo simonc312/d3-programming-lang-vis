@@ -1,0 +1,25 @@
+safe:        true
+port:        4000
+baseurl:     /
+permalink:   pretty
+#Setup
+title:       Popularity of Programming Languages
+tagline:     Hover over a language to see which languages it has influenced
+url:         http://localhost:4000
+parent-url: http://simonc312.github.io
+future:      true
+
+footer-links:
+- url: http://github.com/simonc312
+  img: /assets/github1.png
+- url: http://twitter.com/Simonchen312
+  img: /assets/twitter1.png
+- url: http://www.linkedin.com/in/simonc312
+  img: /assets/linkedin1.png
+
+defaults: 
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      type: "pages"
